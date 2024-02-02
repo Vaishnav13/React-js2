@@ -17,6 +17,7 @@ class Message extends Component {
             <h1>{this.state.message}</h1>
             <button onClick={() => this.changeMessage()}>Subcribe</button>
             <button onClick={() => this.changeMessage()}>Subcribe</button>
+            <button onClick={() => this.changeMessage()}>Subcribe</button>
         </div>
         ) 
     }
