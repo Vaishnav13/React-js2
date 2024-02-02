@@ -13,9 +13,9 @@ class Message extends Component {
         })
     }
     render(){
-        return(<div>
+        return(
+        <div>
             <h1>{this.state.message}</h1>
-            <button onClick={() => this.changeMessage()}>Subcribe</button>
             <button onClick={() => this.changeMessage()}>Subcribe</button>
             <button onClick={() => this.changeMessage()}>Subcribe</button>
         </div>
