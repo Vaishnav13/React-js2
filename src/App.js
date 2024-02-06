@@ -5,11 +5,17 @@ import Greet from './Components/Greet'
 import Message from './Components/Message'
 import Welcome from './Components/Welcome';
 import Counter from './Components/Counter';
+import FunctionClick from './Components/FunctionClick';
+import ClassClick from './Components/ClassClick';
+import EventBind from './Components/EventBind';
 
 function App() {
   return (
     <div className="App">
-      <Counter />
+      <EventBind />
+      {/* <ClassClick /> */}
+      {/* <FunctionClick /> */}
+      {/* <Counter /> */}
       {/* <Welcome /> */}
       {/* <Message /> */}
       {/* <Greet /> */}

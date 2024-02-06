@@ -19,6 +19,7 @@ import React, { Component } from 'react'
         }
     )
     console.log(this.state.count)
+    console.log(this.state.count)
 }
 
 
