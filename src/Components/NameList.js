@@ -23,7 +23,7 @@ function NameList() {
         }
     ];
 
-    const personList = persons.map(person => <Man person={person} />);
+    const personList = persons.map(person => <Man key={person.name} person={person} />);
 
     return <div>{personList}</div>;
 }
